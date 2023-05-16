@@ -1,0 +1,41 @@
+1. Introduction: In methodology, we will discuss or will outline the steps that are involved in developing the online chat
+application. In this project, we have aimed to acquire the efficient testing on system designing.
+
+2. System Design: 
+a) Created the efficient database schema using mongodb/nosql. It will help to serve the large amount of users during login and registration process
+b) The UI is user friendly as we have implemented chatengine.io APIs for better user experience
+
+3. Technology Stack selection:
+a) The Online chat application has been made using frontened as well as backened development.
+b) The MERN Stack has been implemented from online chat application
+
+4. backened development:
+a) Node js and Express js comes into picture whenever we are talking about backened development.
+b) Created our own database using mongoose: library for easy CRUD Features of database.
+c) Used axios in backened which is working as a bridge inbetween chatengine server and our application server
+
+5. frontened development:
+a) Reactjs library has been used for creating the responsible site.
+b) Used boostrap for creating beautiful web pages.
+
+6. Testing:
+a) Used REST Extensions to know the files that are being sent by our own server to chatengine server
+b) Applied various test cases for security so that md5/sha-256 algorithms can't be detected easily.
+c) Fixed various bugs such as wrong credentials page redirecting towards empty chatpage
+d) CRUD Features of mongoose wasn't detected due to invalid configurations.
+
+7. security and Privacy:
+a) Used 256 bit encryption algorithms to maintain security standards throughout the world.
+b) Used passport.js for using google and facebook sign in options.
+c) Created database encryption so that sql injection can't resolve the passwords written over the document
+
+8. Maintenance:
+a) Future bugs fixes, newer ui for the application will be introduced.
+b) Email support for the customers to report the bugs and security related issues
+
+9. Conclusion:
+This methodology covers approach of our online chat application. Our frontened page is connected with backened through axios 
+for posting username and password in database server. We have used API's of webengine.io to handle the websocket features.
+Other than that, we have applied TCP 3 way handshake so that CIA will not be violated in any case.
+
+
